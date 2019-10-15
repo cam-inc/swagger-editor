@@ -27,9 +27,9 @@ window.versions = window.versions || {}
 window.versions.swaggerEditor = `${PACKAGE_VERSION}/${GIT_COMMIT || "unknown"}${GIT_DIRTY ? "-dirty" : ""}`
 const plugins = {
   EditorPlugin,
-  ValidateBasePlugin,
-  ValidateSemanticPlugin,
-  ValidateJsonSchemaPlugin,
+  //ValidateBasePlugin,
+  //ValidateSemanticPlugin,
+  //ValidateJsonSchemaPlugin,
   LocalStoragePlugin,
   EditorAutosuggestPlugin,
   EditorAutosuggestSnippetsPlugin,
