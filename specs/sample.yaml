@@ -1,0 +1,24 @@
+openapi: 3.0.0
+info:
+  description: sample specification
+  title: sample spec
+  version: 1.0.0
+servers:
+- url: /
+tags:
+- description: system apis
+  name: system
+paths:
+  /ping:
+    get:
+      description: ping
+      responses:
+        200:
+          content:
+            text/plain:
+              schema:
+                type: string
+          description: OK
+      summary: ping
+      tags:
+      - system

@@ -1,0 +1,9 @@
+{
+  "logo": "",
+  "urls": [
+    {
+      "url": "specs/sample.yaml",
+      "name": "sample"
+    }
+  ]
+}
