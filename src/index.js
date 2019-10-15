@@ -16,6 +16,9 @@ import PerformancePlugin from "./plugins/performance"
 import JumpToPathPlugin from "./plugins/jump-to-path"
 import SplitPaneModePlugin from "./plugins/split-pane-mode"
 import ASTPlugin from "./plugins/ast"
+import TopbarPlugin from "./plugins/topbar"
+
+import config from "../swagger_config.json"
 
 // eslint-disable-next-line no-undef
 const { GIT_DIRTY, GIT_COMMIT, PACKAGE_VERSION } = buildInfo
@@ -37,6 +40,7 @@ const plugins = {
   JumpToPathPlugin,
   SplitPaneModePlugin,
   ASTPlugin,
+  TopbarPlugin,
 }
 
 const defaults = {
@@ -54,6 +58,7 @@ const defaults = {
   swagger2GeneratorUrl: "https://generator.swagger.io/api/swagger.json",
   oas3GeneratorUrl: "https://generator3.swagger.io/openapi.json",
   swagger2ConverterUrl: "https://converter.swagger.io/api/convert",
+  urls: config.urls
 }
 
 export default function SwaggerEditor(options) {

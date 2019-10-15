@@ -1,7 +1,4 @@
-import TopbarPlugin from "./topbar"
-import TopbarInsertPlugin from "./topbar-insert"
-import TopbarMenuFileImportFile from "./topbar-menu-file-import_file"
-import TopbarMenuEditConvert from "./topbar-menu-edit-convert"
+import TopbarPlugin from "plugins/topbar"
 import StandaloneLayout from "./standalone-layout"
 
 let StandaloneLayoutPlugin = function() {
@@ -15,9 +12,6 @@ let StandaloneLayoutPlugin = function() {
 export default function () {
   return [
     TopbarPlugin,
-    TopbarInsertPlugin,
-    TopbarMenuFileImportFile,
-    TopbarMenuEditConvert,
     StandaloneLayoutPlugin
   ]
 }

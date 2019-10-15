@@ -15,7 +15,11 @@ export default class StandaloneLayout extends React.Component {
 
     return (
       <div>
-        <Topbar />
+        <div className="swagger-editor">
+          <div className="swagger-ui">
+            <Topbar />
+          </div>
+        </div>
         <EditorLayout/>
       </div>
     )
