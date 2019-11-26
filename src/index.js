@@ -30,7 +30,7 @@ const plugins = {
   //ValidateBasePlugin,
   //ValidateSemanticPlugin,
   //ValidateJsonSchemaPlugin,
-  LocalStoragePlugin,
+  //LocalStoragePlugin,
   EditorAutosuggestPlugin,
   EditorAutosuggestSnippetsPlugin,
   EditorAutosuggestKeywordsPlugin,
